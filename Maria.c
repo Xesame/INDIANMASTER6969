@@ -90,10 +90,15 @@ void convert_to_words(char* num)
 
 int main(void)
 {
-	convert_to_words("9923");
-	convert_to_words("523");
-	convert_to_words("89");
-	convert_to_words("8989");
+	char str[100] ;
+
+	printf("enter the desired number \n ");
+
+	scanf("%s" , str);
+
+	convert_to_words(str);
+
 
 	return 0;
+
 }
